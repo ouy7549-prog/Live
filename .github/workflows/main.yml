@@ -1,0 +1,26 @@
+name: Update StarzPlay Playlist
+on:
+  schedule:
+    - cron: '0 * * * *' # يعمل كل ساعة
+  workflow_dispatch: # يسمح لك بتشغيله يدوياً
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install Requests
+        run: pip install requests
+      - name: Run Script
+        run: python update_playlist.py
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add playlist.m3u
+          git commit -m "Update Token" || exit 0
+          git push
