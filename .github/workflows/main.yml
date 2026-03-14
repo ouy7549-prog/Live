@@ -4,29 +4,23 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: # إضافة الصلاحيات مباشرة في الكود لزيادة الأمان
-      contents: write
     steps:
-      - uses: actions/checkout@v4 # تحديث للنسخة 4
+      - uses: actions/checkout@v4
       - name: Install Python
-        uses: actions/setup-python@v5 # تحديث للنسخة 5
-        with:
-          python-version: '3.11'
-      - name: Install Requests
         run: pip install requests
       - name: Run Script
         run: python update_playlist.py
-      - name: Commit and Push
-        env:
-          # نستخدم المفتاح السري هنا لتجاوز قيود الصلاحيات
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add playlist.m3u
-          git commit -m "Update StarzPlay Token [skip ci]" || exit 0
-          # تعديل طريقة الـ Push لاستخدام التوكن
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.' # سينشر كل الملفات بما فيها playlist.m3u
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
