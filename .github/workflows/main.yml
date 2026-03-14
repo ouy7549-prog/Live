@@ -20,9 +20,13 @@ jobs:
       - name: Run Script
         run: python update_playlist.py
       - name: Commit and Push
+        env:
+          # نستخدم المفتاح السري هنا لتجاوز قيود الصلاحيات
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add playlist.m3u
           git commit -m "Update StarzPlay Token [skip ci]" || exit 0
-          git push
+          # تعديل طريقة الـ Push لاستخدام التوكن
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
