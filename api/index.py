@@ -19,38 +19,51 @@ def decrypt_payload(ciphertext, key_hex, iv_hex):
     except:
         return None
 
+# ... نفس دوال التشفير السابقة ...
+
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
-        scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+        scraper = cloudscraper.create_scraper()
         api_url = "https://www.elahmad.org/tv/live/shahid_shaka.php"
         payload = {"id": "dubaione"}
-        
-        # إضافة Headers مطابقة تماماً للمتصفح
         headers = {
-            "Origin": "https://www.elahmad.org",
             "Referer": "https://www.elahmad.org/",
-            "X-Requested-With": "XMLHttpRequest",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
         }
         
         try:
-            resp = scraper.post(api_url, data=payload, headers=headers, timeout=10)
+            resp = scraper.post(api_url, data=payload, headers=headers)
             data = resp.json()
             link = decrypt_payload(data.get('link_4'), data.get('key'), data.get('iv'))
             
             if link:
-                # توجيه مباشر للبث
-                self.send_response(302)
-                self.send_header('Location', link)
-                self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+                # بدلاً من 302 Redirect، سنقوم بإرسال صفحة HTML بسيطة تشغل الرابط فوراً
+                # هذا يضمن أن المشغل والمتصفح يعملان في نفس البيئة
+                self.send_response(200)
+                self.send_header('Content-type', 'text/html')
                 self.end_headers()
-            else:
-                self.send_response(500)
-                self.send_header('Content-type', 'text/plain')
-                self.end_headers()
-                self.wfile.write(b"Error: Could not extract link. Data received but decryption failed.")
-        except Exception as e:
-            self.send_response(500)
-            self.send_header('Content-type', 'text/plain')
-            self.end_headers()
-            self.wfile.write(f"Error: {str(e)}".encode())
+                
+                html_code = f"""
+                <html>
+                <head>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+                </head>
+                <body style="margin:0; background:#000;">
+                    <video id="video" style="width:100%; height:100%;" controls autoplay></video>
+                    <script>
+                        async function start() {{
+                            const video = document.getElementById('video');
+                            const player = new shaka.Player(video);
+                            player.configure({{
+                                drm: {{ clearKeys: {{ 98a5480e7cb53fe7922477f76acba548:ad0076dfd98433a75312bb5e4f14525b }} }} // ضع مفاتيحك هنا
+                            }});
+                            try {{
+                                await player.load('{link}');
+                            }} catch (e) {{ console.error(e); }}
+                        }}
+                        start();
+                    </script>
+                </body>
+                </html>
+                """
+                self.wfile.write(html_code.encode())
