@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaka Player Live</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+    <style>
+        body { margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        video { width: 100%; height: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+
+    <video id="video" controls autoplay playsinline></video>
+
+    <script>
+        // --- بيانات البث الخاصة بك ---
+        const manifestUri = 'https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-2/51db9d7fa48a27d051f1eecb68069151/index.mpd';
+        const clearKey = {
+            'e3ce77324a3d4fa2a913b26cc1976052': '17774f82a3b9e33ea7a149596acbb20f'
+        };
+
+        async function initApp() {
+            // تثبيت Polyfills لضمان عمل المشغل على كافة المتصفحات
+            shaka.polyfill.installAll();
+
+            if (shaka.Player.isBrowserSupported()) {
+                const video = document.getElementById('video');
+                const player = new shaka.Player(video);
+
+                // إعداد المفاتيح (ClearKey)
+                player.configure({
+                    drm: {
+                        clearKeys: clearKey
+                    }
+                });
+
+                // الاستماع للأخطاء
+                player.addEventListener('error', (event) => {
+                    console.error('Shaka Error:', event.detail);
+                });
+
+                try {
+                    await player.load(manifestUri);
+                    console.log('تم تحميل الفيديو بنجاح!');
+                } catch (e) {
+                    console.error('فشل التحميل:', e);
+                }
+            } else {
+                console.error('المتصفح لا يدعم Shaka Player!');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
