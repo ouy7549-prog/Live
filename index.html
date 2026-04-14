@@ -333,6 +333,60 @@
             color: var(--primary);
         }
 
+        /* Diagnostics Panel */
+        .diag-panel {
+            background: rgba(64, 196, 255, 0.05);
+            border: 1px solid rgba(64, 196, 255, 0.25);
+            border-radius: 12px;
+            padding: 14px 16px;
+            margin-top: 12px;
+        }
+
+        .diag-title {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--info);
+            margin-bottom: 10px;
+            letter-spacing: 0.3px;
+        }
+
+        .diag-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            gap: 10px;
+        }
+
+        .diag-row:last-child { border-bottom: none; }
+
+        .diag-key {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .diag-val {
+            font-family: 'Courier New', monospace;
+            font-size: 0.78rem;
+            color: var(--text);
+            text-align: left;
+            direction: ltr;
+            word-break: break-all;
+        }
+
+        .diag-tip {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(64,196,255,0.15);
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+
+        .diag-tip strong { color: var(--warning); }
+
         /* Responsive */
         @media (max-width: 480px) {
             .logo-text { font-size: 1.3rem; }
@@ -424,6 +478,16 @@
         <button class="retry-btn" id="retry-btn" onclick="retryLoad()">🔄 إعادة المحاولة</button>
     </div>
 
+    <!-- Diagnostics Panel -->
+    <div class="diag-panel" id="diag-panel" style="display:none">
+        <div class="diag-title">🔬 لوحة التشخيص</div>
+        <div id="diag-content"></div>
+        <div class="diag-tip">
+            💡 إذا ظهر كود HTTP هو <strong>403</strong>: تحتاج إما إضافة رمز مصادقة للرابط، أو تغيير Referer Header.<br>
+            إذا لم يظهر كود HTTP: المشكلة على الأغلب CORS — افتح DevTools (F12) ← تبويب Network وابحث عن طلب جـ .mpd.
+        </div>
+    </div>
+
     <div class="footer">
         مشغّل مبني بـ <span>Shaka Player</span> · يدعم DASH + ClearKey DRM
     </div>
@@ -449,11 +513,24 @@
     // عرض معلومات ثابتة في البطاقات
     document.getElementById('info-kid').textContent = KID.slice(0, 8) + '…';
 
+    // آخر كود HTTP تم استقباله من الشبكة
+    let lastHttpStatus = null;
+    let lastFailedUrl  = null;
+
     // خريطة أكواد الأخطاء الشائعة مع تعليمات الإصلاح
+    const HTTP_STATUS_HINTS = {
+        403: '⛔ الخادم رفض الطلب (403 Forbidden) — الأسباب الشائعة:\n• قيود على Referer أو Origin\n• الرابط يحتاج رمز مصادقة\n• الخادم يحظر الوصول من خارج نطاقه الأصلي',
+        404: '🔍 الرابط غير موجود (404 Not Found) — قد يكون رابط البث قديماً أو منتهي الصلاحية.',
+        401: '🔐 المصادقة مطلوبة (401 Unauthorized) — الرابط يحتاج بيانات تسجيل دخول.',
+        500: '💥 خطأ داخلي في خادم البث (500) — المشكلة من جانب الخادم.',
+        502: '🔗 خادم البث لا يستجيب (502 Bad Gateway).',
+        0:   '🚫 خطأ CORS — الخادم لا يسمح بالوصول من هذا الموقع (لا يوجد رأس Access-Control-Allow-Origin).',
+    };
+
     const ERROR_HINTS = {
-        1001: 'فشل تحميل ملف MPD من الخادم. تحقق من صحة رابط البث وتوفره.',
-        1002: 'خطأ في استجابة خادم HTTP. قد يكون الرابط منتهياً أو محمياً.',
-        1003: 'انتهت مهلة الشبكة. تحقق من اتصالك بالإنترنت.',
+        1001: 'الخادم أعاد رمز HTTP غير ناجح. تحقق من لوحة التشخيص أدناه لرؤية رمز HTTP الفعلي.',
+        1002: 'فشل الاتصال بالشبكة تمامًا. قد يكون بسبب CORS أو انقطاع الاتصال.',
+        1003: 'انتهت مهلة الاتصال. تحقق من اتصالك بالإنترنت.',
         6001: 'المتصفح لا يدعم نظام DRM المطلوب، أو الصفحة ليست على HTTPS/localhost.\n→ افتح الملف عبر خادم محلي: python -m http.server 8080',
         6007: 'فشل طلب الترخيص. تحقق من صحة مفتاح التشفير (KID/KEY).',
         6014: 'غير مسموح بالوصول لمفتاح التشفير. تحقق من صحة KID و KEY.',
@@ -468,11 +545,44 @@
 
     function showError(code, detail, hint) {
         overlay.classList.add('hidden');
-        setStatus('error', `خطأ (${code}): ${detail}`);
+        setStatus('error', `خطأ Shaka ${code}`);
         errorMsg.textContent = detail;
-        errorHint.textContent = hint || ERROR_HINTS[code] || 'افتح أدوات المطور (F12) وتحقق من كونسول الأخطاء للمزيد من التفاصيل.';
+
+        // بناء نص التلميح بشكل ذكي
+        let hintText = hint || ERROR_HINTS[code] || '';
+
+        // إضافة معلومات كود HTTP إن وُجدت
+        if (lastHttpStatus !== null) {
+            const httpHint = HTTP_STATUS_HINTS[lastHttpStatus] || `كود HTTP: ${lastHttpStatus}`;
+            hintText = httpHint + (hintText ? '\n\n' + hintText : '');
+        }
+
+        if (!hintText) hintText = 'افتح أدوات المطور (F12 ← Network) وتحقق من استجابة الخادم.';
+
+        // تحويل السطر الجديد إلى HTML
+        errorHint.innerHTML = hintText.split('\n').map(l => `<span>${l}</span>`).join('<br>');
+
+        // تحديث لوحة التشخيص
+        updateDiagnostics(code);
+
         errorPanel.classList.add('visible');
-        console.error('[Player] Error ' + code + ':', detail);
+        console.error('[Player] Error ' + code, { detail, lastHttpStatus, lastFailedUrl });
+    }
+
+    function updateDiagnostics(shakaCode) {
+        const diagEl = document.getElementById('diag-content');
+        if (!diagEl) return;
+        const rows = [
+            ['كود Shaka', shakaCode],
+            ['كود HTTP', lastHttpStatus !== null ? lastHttpStatus : 'غير متاح'],
+            ['الرابط الذي فشل', lastFailedUrl ? lastFailedUrl.split('?')[0].slice(-60) : '—'],
+            ['البروتوكول', location.protocol],
+            ['المصدر (Origin)', location.origin],
+        ];
+        diagEl.innerHTML = rows.map(([k, v]) =>
+            `<div class="diag-row"><span class="diag-key">${k}</span><span class="diag-val">${v}</span></div>`
+        ).join('');
+        document.getElementById('diag-panel').style.display = 'block';
     }
 
     let player = null;
@@ -516,6 +626,25 @@
             player = new shaka.Player();
             await player.attach(video);
 
+            // ── فلاتر الشبكة لالتقاط كود HTTP الفعلي ──────────────────────
+            const netEngine = player.getNetworkingEngine();
+
+            // فلتر الطلبات: إضافة headers تساعد في تجاوز قيود Referer
+            netEngine.registerRequestFilter((type, request) => {
+                // نضيف Referer يطابق خادم البث لتجاوز قيود Referer البسيطة
+                request.headers['Referer'] = 'https://www.mbc.net/';
+                // بعض الخوادم تتطلب User-Agent محدداً
+                // request.headers['User-Agent'] = 'Mozilla/5.0';
+            });
+
+            // فلتر الاستجابات: التقاط كود HTTP للتشخيص
+            netEngine.registerResponseFilter((type, response) => {
+                lastHttpStatus = response.status;
+                lastFailedUrl  = response.uri;
+                console.log(`[Network] ${response.status} ← ${response.uri.slice(-80)}`);
+            });
+            // ─────────────────────────────────────────────────────────────────
+
             // 6. ضبط إعدادات DRM قبل التحميل
             player.configure({
                 drm: {
@@ -525,18 +654,19 @@
                 },
                 manifest: {
                     retryParameters: {
-                        maxAttempts: 4,
+                        maxAttempts: 3,
                         baseDelay: 1000,
-                        backoffFactor: 2
+                        backoffFactor: 2,
+                        timeout: 10000
                     }
                 },
                 streaming: {
                     retryParameters: {
-                        maxAttempts: 4,
+                        maxAttempts: 3,
                         baseDelay: 1000,
-                        backoffFactor: 2
+                        backoffFactor: 2,
+                        timeout: 10000
                     },
-                    // تحسين بدء التشغيل المباشر
                     bufferingGoal: 10,
                     rebufferingGoal: 2
                 }
@@ -545,8 +675,7 @@
             // 7. الاستماع لأحداث الأخطاء
             player.addEventListener('error', (event) => {
                 const err = event.detail;
-                const hint = ERROR_HINTS[err.code] || '';
-                showError(err.code, `[${err.category}:${err.code}] ${err.message || 'خطأ غير معروف'}`, hint);
+                showError(err.code, `${err.message || 'خطأ غير معروف'}`);
             });
 
             // 8. مراقبة حالة التخزين المؤقت
@@ -555,6 +684,7 @@
                     setStatus('loading', 'جاري التخزين المؤقت...');
                 } else {
                     setStatus('success', '🔴 البث المباشر يعمل');
+                    lastHttpStatus = null; // reset بعد النجاح
                 }
             });
 
@@ -567,11 +697,18 @@
             overlay.classList.add('hidden');
             setStatus('success', '🔴 البث المباشر يعمل الآن');
             errorPanel.classList.remove('visible');
+            document.getElementById('diag-panel').style.display = 'none';
 
         } catch (e) {
             const code = e.code || 'N/A';
-            const hint = ERROR_HINTS[code] || '';
-            showError(code, e.message || 'فشل تحميل البث', hint);
+            // إذا كان الكود 1001 وعندنا كود HTTP، أضفه للرسالة
+            let detail = e.message || 'فشل تحميل البث';
+            if (code === 1001 && lastHttpStatus) {
+                detail = `الخادم أعاد كود HTTP ${lastHttpStatus}`;
+            } else if (code === 1002) {
+                detail = 'فشل الاتصال بالشبكة (تحقق من CORS في DevTools)';
+            }
+            showError(code, detail);
             console.error('[Player] Load failed:', e);
         }
     }
