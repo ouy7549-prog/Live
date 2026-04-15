@@ -4,51 +4,41 @@ import re
 
 app = Flask(__name__)
 
-def get_live_url():
+def get_jeem_url():
+    scraper = cloudscraper.create_scraper()
+    # 1. الدخول لصفحة القناة الرئيسية لجلب الكوكيز والتوكن
+    base_url = "https://www.elahmad.org/tv/radiant.php?id=jscc1"
+    headers = {
+        "Referer": "https://www.elahmad.org/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+
     try:
-        # استخدام cloudscraper لتجاوز حماية Cloudflare
-        scraper = cloudscraper.create_scraper()
+        response = scraper.get(base_url, headers=headers)
         
-        # الرابط الذي يحتوي على مشغل قناة ج
-        target_url = "https://www.elahmad.org/tv/radiant.php?id=jscc1"
-        headers = {
-            "Referer": "https://www.elahmad.org/",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-        }
+        # 2. البحث عن التوكن (غالباً يكون نصاً طويلاً في كود الصفحة)
+        # سنبحث عن أي رابط m3u8 يظهر في الصفحة
+        match = re.search(r'["\'](https?://games1\.elahmad\.xyz/[^"\']+\.m3u8[^"\']*)["\']', response.text)
         
-        response = scraper.get(target_url, headers=headers)
+        if match:
+            return match.group(1).replace('\\', '')
         
-        # محاولة البحث عن الرابط بأكثر من نمط (Pattern)
-        # النمط 1: البحث عن روابط m3u8 داخل ملفات JS
-        patterns = [
-            r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']',
-            r'file\s*:\s*["\']([^"\']+)["\']',
-            r'src\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']'
-        ]
-        
-        for pattern in patterns:
-            match = re.search(pattern, response.text)
-            if match:
-                link = match.group(1)
-                # التأكد من أن الرابط يبدأ بـ http
-                if not link.startswith('http'):
-                    continue
-                return link
-                
-        return None
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
+        # 3. محاولة أخيرة: إذا لم يجد الرابط كاملاً، سيبحث عن التوكن فقط لتركيبه
+        token_match = re.search(r'token=([a-zA-Z0-9\-_]+)', response.text)
+        if token_match:
+            token = token_match.group(1)
+            # تركيب الرابط بناءً على الصيغة التي أرسلتها سابقاً
+            return f"https://games1.elahmad.xyz/tv793_www.elahmad.com_jeem/index.m3u8?token={token}"
+
+    except Exception:
+        pass
+    return None
 
 @app.route('/')
 def play():
-    new_url = get_live_url()
-    if new_url:
-        # إرجاع الرابط كـ Redirect (هذا ما يحتاجه المشغل)
-        return redirect(new_url, code=302)
+    url = get_jeem_url()
+    if url:
+        return redirect(url, code=302)
     
-    # في حال الفشل، سنحاول طباعة جزء من كود الصفحة للتشخيص (اختياري)
-    return "فشل في استخراج الرابط، ربما تغيرت بنية الصفحة. جرب التحديث.", 500
-
-if __name__ == "__main__":
-    app.run()
+    # إذا فشل السيرفر، سنعطيك رابطاً احتياطياً (قد يعمل أو لا حسب التوكن)
+    return "السيرفر لم يستطع جلب توكن جديد حالياً. حاول تحديث الصفحة بعد ثوانٍ.", 500
