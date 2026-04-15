@@ -4,41 +4,48 @@ import re
 
 app = Flask(__name__)
 
-def get_jeem_url():
+def get_jeem_stream():
     scraper = cloudscraper.create_scraper()
-    # 1. الدخول لصفحة القناة الرئيسية لجلب الكوكيز والتوكن
-    base_url = "https://www.elahmad.org/tv/radiant.php?id=jscc1"
+    # الرابط الجديد لقناة ج
+    target_url = "https://www.elahmad.org/tv/radiant.php?id=jscc1"
     headers = {
         "Referer": "https://www.elahmad.org/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
-
+    
     try:
-        response = scraper.get(base_url, headers=headers)
+        # جلب محتوى الصفحة
+        resp = scraper.get(target_url, headers=headers)
         
-        # 2. البحث عن التوكن (غالباً يكون نصاً طويلاً في كود الصفحة)
-        # سنبحث عن أي رابط m3u8 يظهر في الصفحة
-        match = re.search(r'["\'](https?://games1\.elahmad\.xyz/[^"\']+\.m3u8[^"\']*)["\']', response.text)
+        # البحث عن رابط m3u8 الذي يحتوي على التوكن
+        # قناة ج لا تحتاج فك تشفير AES، الرابط موجود نصياً في الكود
+        found = re.findall(r'file\s*:\s*["\'](https?://[^"\']+\.m3u8[^"\']*)["\']', resp.text)
         
-        if match:
-            return match.group(1).replace('\\', '')
+        if found:
+            link = found[0].replace('\\', '')
+            # تنظيف الرابط من أي رموز غريبة
+            clean_link = "".join(char for char in link if 31 < ord(char) < 127)
+            return clean_link
         
-        # 3. محاولة أخيرة: إذا لم يجد الرابط كاملاً، سيبحث عن التوكن فقط لتركيبه
-        token_match = re.search(r'token=([a-zA-Z0-9\-_]+)', response.text)
-        if token_match:
-            token = token_match.group(1)
-            # تركيب الرابط بناءً على الصيغة التي أرسلتها سابقاً
-            return f"https://games1.elahmad.xyz/tv793_www.elahmad.com_jeem/index.m3u8?token={token}"
-
-    except Exception:
-        pass
-    return None
+        # محاولة أخرى ببحث أعمق
+        found_alt = re.search(r'["\'](https?://games1\.elahmad\.xyz/[^"\']+)["\']', resp.text)
+        if found_alt:
+            return found_alt.group(1).replace('\\', '')
+            
+        return None
+    except:
+        return None
 
 @app.route('/')
-def play():
-    url = get_jeem_url()
-    if url:
-        return redirect(url, code=302)
+@app.route('/api')
+def get_stream():
+    link = get_jeem_stream()
     
-    # إذا فشل السيرفر، سنعطيك رابطاً احتياطياً (قد يعمل أو لا حسب التوكن)
-    return "السيرفر لم يستطع جلب توكن جديد حالياً. حاول تحديث الصفحة بعد ثوانٍ.", 500
+    if link:
+        # تحويل المشغل (VLC/OTT) للرابط الجديد فوراً
+        return redirect(link, code=302)
+    
+    return "Error: JeemTV link not found. The site might have changed the structure.", 500
+
+# إعدادات Vercel
+app.debug = True
