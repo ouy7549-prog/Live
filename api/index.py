@@ -5,47 +5,56 @@ import re
 app = Flask(__name__)
 
 def get_jeem_stream():
-    scraper = cloudscraper.create_scraper()
-    # الرابط الجديد لقناة ج
+    # استخدام سكرابر متطور لتجاوز الحماية
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+    
+    # الرابط المباشر للمشغل
     target_url = "https://www.elahmad.org/tv/radiant.php?id=jscc1"
+    
     headers = {
-        "Referer": "https://www.elahmad.org/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        "Referer": "https://www.elahmad.org/tv/aljazeera_children.php",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "ar,en-US;q=0.7,en;q=0.3",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1"
     }
     
     try:
-        # جلب محتوى الصفحة
-        resp = scraper.get(target_url, headers=headers)
+        # 1. جلب الصفحة
+        resp = scraper.get(target_url, headers=headers, timeout=10)
         
-        # البحث عن رابط m3u8 الذي يحتوي على التوكن
-        # قناة ج لا تحتاج فك تشفير AES، الرابط موجود نصياً في الكود
-        found = re.findall(r'file\s*:\s*["\'](https?://[^"\']+\.m3u8[^"\']*)["\']', resp.text)
+        # 2. البحث عن الرابط باستخدام Regex يدعم الروابط المكسورة أو المشفرة جزئياً
+        # نبحث عن نمط: https://...index.m3u8?token=...
+        content = resp.text
         
-        if found:
-            link = found[0].replace('\\', '')
-            # تنظيف الرابط من أي رموز غريبة
-            clean_link = "".join(char for char in link if 31 < ord(char) < 127)
-            return clean_link
+        # محاولة البحث عن الرابط الكامل
+        patterns = [
+            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+            r'file\s*:\s*["\']([^"\']+)["\']',
+            r'src\s*:\s*["\']([^"\']+)["\']'
+        ]
         
-        # محاولة أخرى ببحث أعمق
-        found_alt = re.search(r'["\'](https?://games1\.elahmad\.xyz/[^"\']+)["\']', resp.text)
-        if found_alt:
-            return found_alt.group(1).replace('\\', '')
-            
+        for pattern in patterns:
+            matches = re.findall(pattern, content)
+            for link in matches:
+                if 'elahmad' in link and 'm3u8' in link:
+                    # تنظيف الرابط من الهروب (Backslashes)
+                    clean_link = link.replace('\\', '')
+                    return clean_link
+        
         return None
-    except:
+    except Exception as e:
+        print(f"Detailed Error: {e}")
         return None
 
 @app.route('/')
 @app.route('/api')
 def get_stream():
     link = get_jeem_stream()
-    
     if link:
-        # تحويل المشغل (VLC/OTT) للرابط الجديد فوراً
         return redirect(link, code=302)
     
-    return "Error: JeemTV link not found. The site might have changed the structure.", 500
+    return "Error: Link not found. The site might be blocking the Cloud Server IP.", 500
 
-# إعدادات Vercel
-app.debug = True
+if __name__ == "__main__":
+    app.run()
