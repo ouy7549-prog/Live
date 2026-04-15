@@ -1,60 +1,47 @@
-from flask import Flask, redirect
+from http.server import BaseHTTPRequestHandler
 import cloudscraper
 import re
 
-app = Flask(__name__)
-
-def get_jeem_stream():
-    # استخدام سكرابر متطور لتجاوز الحماية
-    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+def get_live_link():
+    """دالة تجلب الرابط المباشر لقناة ج من موقع الأحمد"""
+    scraper = cloudscraper.create_scraper(
+        browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False}
+    )
     
-    # الرابط المباشر للمشغل
-    target_url = "https://www.elahmad.org/tv/radiant.php?id=jscc1"
-    
+    # رابط الصفحة التي تحتوي على مشغل القناة
+    url = "https://www.elahmad.org/tv/radiant.php?id=jscc1"
     headers = {
         "Referer": "https://www.elahmad.org/tv/aljazeera_children.php",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        "Accept-Language": "ar,en-US;q=0.7,en;q=0.3",
-        "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
-    
+
     try:
-        # 1. جلب الصفحة
-        resp = scraper.get(target_url, headers=headers, timeout=10)
-        
-        # 2. البحث عن الرابط باستخدام Regex يدعم الروابط المكسورة أو المشفرة جزئياً
-        # نبحث عن نمط: https://...index.m3u8?token=...
-        content = resp.text
-        
-        # محاولة البحث عن الرابط الكامل
-        patterns = [
-            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-            r'file\s*:\s*["\']([^"\']+)["\']',
-            r'src\s*:\s*["\']([^"\']+)["\']'
-        ]
-        
-        for pattern in patterns:
-            matches = re.findall(pattern, content)
-            for link in matches:
-                if 'elahmad' in link and 'm3u8' in link:
-                    # تنظيف الرابط من الهروب (Backslashes)
-                    clean_link = link.replace('\\', '')
-                    return clean_link
-        
+        resp = scraper.get(url, headers=headers, timeout=10)
+        # البحث عن أي رابط ينتهي بـ m3u8 ويحتوي على التوكن
+        match = re.search(r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']', resp.text)
+        if match:
+            return match.group(1).replace('\\', '')
         return None
-    except Exception as e:
-        print(f"Detailed Error: {e}")
+    except:
         return None
 
-@app.route('/')
-@app.route('/api')
-def get_stream():
-    link = get_jeem_stream()
-    if link:
-        return redirect(link, code=302)
-    
-    return "Error: Link not found. The site might be blocking the Cloud Server IP.", 500
+class handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        # محاولة جلب الرابط المباشر
+        link = get_live_link()
+        
+        if link:
+            # إرسال استجابة 302 (تحويل مؤقت) للمشغل
+            self.send_response(302)
+            self.send_header('Location', link)
+            self.send_header('Access-Control-Allow-Origin', '*') # لحل مشاكل CORS
+            self.end_headers()
+        else:
+            # في حال الفشل
+            self.send_response(500)
+            self.send_header('Content-type', 'text/plain; charset=utf-8')
+            self.end_headers()
+            self.wfile.write("خطأ: لم يتم العثور على رابط البث. قد تكون الحماية قد تغيرت.".encode('utf-8'))
 
-if __name__ == "__main__":
-    app.run()
+# ملاحظة: إذا كنت تريد العودة لفك تشفير AES لقنوات مثل دبي وان، 
+# يمكنك دمج دالة decrypt_payload هنا واستدعاؤها بنفس الطريقة.
