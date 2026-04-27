@@ -123,11 +123,11 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc04
 #KODIPROP:inputstream.adaptive.license_key=8ebed7aab13df195c486446acccb4ccc:a514dba4389dbec5a49cc296f838993a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT/STCT.isml/manifest.mpd
-#EXTINF:-1 tvg-id="STC_755594792003" tvg-logo="https://i.imgur.com/vxkap0u.png" group-title="Sport", ثمانية 1
+#EXTINF:-1 tvg-id="STC_755593768125" tvg-logo="https://i.imgur.com/vxkap0u.png" group-title="Sport", ثمانية 1
 https://ms-live.servers8.com/live/ch01-fta/index.m3u8
-#EXTINF:-1 tvg-id="STC_755592232420" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
+#EXTINF:-1 tvg-id="STC_755594792003" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
 https://ms-live.servers8.com/live/ch02-fta/index.m3u8
-#EXTINF:-1 tvg-id="STC_755593768125" tvg-logo="https://i.imgur.com/1QFcRjG.png" group-title="Sport", ثمانية 3
+#EXTINF:-1 tvg-id="STC_755592232420" tvg-logo="https://i.imgur.com/1QFcRjG.png" group-title="Sport", ثمانية 3
 https://ms-live.servers8.com/live/ch03-fta/index.m3u8
 #EXTINF:-1 tvg-id="STC_756430376216" tvg-logo="https://i.imgur.com/FwO6ez6.png" group-title="Sport", ثمانية 4
 https://ms-live.servers8.com/live/ch04-fta/index.m3u8
