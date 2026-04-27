@@ -1,1 +1,9 @@
-
+#EXTM3U x-tvg-url="https://github.com/ouy7549-prog/Unified-MENA-EPG/raw/refs/heads/main/combined_epg_final.xml"
+#EXTINF:-1 tvg-id="STC_755594792003" tvg-logo="https://i.imgur.com/vxkap0u.png" group-title="Sport", ثمانية 1
+https://ms-live.servers8.com/live/ch01-fta/index.m3u8
+#EXTINF:-1 tvg-id="STC_755592232420" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
+https://ms-live.servers8.com/live/ch02-fta/index.m3u8
+#EXTINF:-1 tvg-id="STC_755593768125" tvg-logo="https://i.imgur.com/1QFcRjG.png" group-title="Sport", ثمانية 3
+https://ms-live.servers8.com/live/ch03-fta/index.m3u8
+#EXTINF:-1 tvg-id="STC_756430376216" tvg-logo="https://i.imgur.com/FwO6ez6.png" group-title="Sport", ثمانية 4
+https://ms-live.servers8.com/live/ch04-fta/index.m3u8
