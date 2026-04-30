@@ -71,9 +71,9 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/2cea83644508440266f
 https://fastlyrwb-live.cdn.intigral-ott.net/DBO/DBO.isml/manifest.mpd
 #EXTINF:-1 tvg-id="STC_92533800185" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="UAE",National Geographic Abu Dhabi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3fdd8dd5726d51bea4ccc7358dc018f6:32fab75ba9b398946e8c3afa01917a8f
+#KODIPROP:inputstream.adaptive.license_key=99e6654c4904aa34faccf6f7dc75c7ff:7cc60d98af11e3a180c3048019c62b75
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv/national_geo/national_geo_dash_enc/index.mpd
+https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/NatGeo_AbuDhabi_HD/DASH/NatGeo_AbuDhabi_HD.mpd
 #EXTINF:-1 tvg-id="STC_92534824018" tvg-logo="https://i.imgur.com/HWgw7zn.png" group-title="مصرية", Al Nahar
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d2a1a984b3f9587bfe450b4335f5f672:59487c0c415a995e9bd2d384d08871b4
