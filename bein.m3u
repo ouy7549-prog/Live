@@ -17,12 +17,3 @@ https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/adaptive.m3u8
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/adaptive.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/jRWkoMM.png" group-title="beIN Sports",beIN Sports 3
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch3/adaptive.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/EUnhOf4.png" group-title="beIN Sports",beIN Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-http://het111a.ycn-redirect.com/live/918454578001/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/NwjNTqi.png" group-title="beIN Sports",beIN Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-http://het129b.ycn-redirect.com/live/69854211/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/jRWkoMM.png" group-title="beIN Sports",beIN Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-http://het140c.ycn-redirect.com/live/645587700/index.m3u8
