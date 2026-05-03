@@ -11,3 +11,9 @@ http://afcocafot.com:8080/bn1hd/index.m3u8
 http://afcocafot.com:8080/bn2hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/jRWkoMM.png" group-title="beIN Sports",beIN Sports 3 HD
 http://afcocafot.com:8080/bn3hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/EUnhOf4.png" group-title="beIN Sports",beIN Sports 1
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/adaptive.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/NwjNTqi.png" group-title="beIN Sports",beIN Sports 2
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/adaptive.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/jRWkoMM.png" group-title="beIN Sports",beIN Sports 3
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch3/adaptive.m3u8
