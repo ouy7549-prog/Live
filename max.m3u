@@ -68,12 +68,12 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/2cea83644508440266f
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ab96aca699762f6402588eafe321a975:345f243b66226e22c7637b0050930b18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/DBO/DBO.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/DBO_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_92533800185" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="UAE",National Geographic Abu Dhabi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=99e6654c4904aa34faccf6f7dc75c7ff:7cc60d98af11e3a180c3048019c62b75
+#KODIPROP:inputstream.adaptive.license_key=b1e2ae3754ced9e9258a8df46d261390:bc42486b5253920abdd0cb3e727852f5
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/NatGeo_AbuDhabi_HD/DASH/NatGeo_AbuDhabi_HD.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/NGAD_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_92534824018" tvg-logo="https://i.imgur.com/HWgw7zn.png" group-title="مصرية", Al Nahar
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d2a1a984b3f9587bfe450b4335f5f672:59487c0c415a995e9bd2d384d08871b4
@@ -98,7 +98,7 @@ https://fastlyrwb-live.cdn.intigral-ott.net/CBD/CBD.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=aad33a029c39e70a58600b54ae5b8dee:24ea749523d73b7a087ba61c16568f4b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/AH1/AH1.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/AH1_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_92533800210" tvg-logo="https://shahid.mbc.net/mediaObject/d3c4d7f4-64f6-4dbe-a6b5-8bfed1372966?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أطفال", Spacetoon
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
 #EXTINF:-1 tvg-id="STC_92533800174" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Majid_TV_logo_2023.svg/250px-Majid_TV_logo_2023.svg.png" group-title="أطفال", ماجد
@@ -110,24 +110,24 @@ https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv/majid/majid_dash_enc
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ece7bbc683eb35d1e6b3e32cccbd8fb0:f72bd6ea26e243524d58993b58122313
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/CNA/wv-pr/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/CNA_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_65038376203" tvg-logo="https://i.imgur.com/bELGPOS.png" group-title="أطفال", Cartoon Network HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8442ea8da91e1d0f392515adc680a4f5:4e9b90ac2c26cb08cd34005e08ecf05c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/TCN/TCN.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/TCN_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_92533800148" tvg-logo="https://i.imgur.com/oOKYqRF.png" group-title="أطفال", Disney
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=72800c62fcf2bfbedd9af27d79ed35d6:b6ccb9facb2c1c81ebe4dfaab8a45195
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/DIS/wv-pr/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/DIS_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="Shahid_995495" tvg-logo="https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="ثقافية", الثقافية
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
 #EXTINF:-1 tvg-id="STC_640396840439" tvg-logo="https://i.imgur.com/UvfZlK0.png" group-title="ثقافية", STC Thamnya
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ebed7aab13df195c486446acccb4ccc:a514dba4389dbec5a49cc296f838993a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/STCT/STCT.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/STCT_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_755593768125" tvg-logo="https://i.imgur.com/vxkap0u.png" group-title="Sport", ثمانية 1
 https://ms-live.servers8.com/live/ch01-fta/index.m3u8
 #EXTINF:-1 tvg-id="STC_755594792003" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
@@ -140,22 +140,22 @@ https://ms-live.servers8.com/live/ch04-fta/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=47f0ab58f5a81c20b5b69dc494cbe102:1e0719da653c2b4652f0b0bf84d96c74
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/STC/STC.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/STC_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_133377575964" tvg-logo="https://i.imgur.com/u8PNY2L.png" group-title="Sport", STC Sport 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e74c7d697bd26595b196c6b96e2d4f5b:e288110233737502e8af9184098ab50b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/JAW1/JAW1.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/JAW1_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_709227560347" tvg-logo="https://i.imgur.com/YAJoN3z.png" group-title="Sport", STC Sport 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1fd615ca2c5353fc5393da466ce31cbc:942822c6e7d3b01dd71bffded7ac0aa8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/STC3/STC3.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/STC3_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_711722536156" tvg-logo="https://i.imgur.com/JZ46pbc.png" group-title="Sport", STC Sport 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01065be7ffbb268f2aadf7424b8ee24e:79a541c99e9bb7815e257e4a4ff46dbb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/STC4/STC4.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/STC4_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="Starz_starzplaysports1" tvg-logo="https://i.imgur.com/7RhH7hg.png" group-title="Sport", Starzplay 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b253c726c24c7c94a3ddf9b1907e2c76:097963d6ad73c3d712a104981de0ed42
