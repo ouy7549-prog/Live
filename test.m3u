@@ -19,3 +19,8 @@ https://pop1e10.cdn.intigral-ott.net/bpk-token/4ar@kcujdfw1qgnuyh1tnocj3itgk2qan
 #KODIPROP:inputstream.adaptive.license_key=72800c62fcf2bfbedd9af27d79ed35d6:b6ccb9facb2c1c81ebe4dfaab8a45195
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/DIS_HEVC/wv-pr/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="", AD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5b997b6eda03520a572ab527499859ca:0a35a1a66db970a5b7e4bb6d469737cd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/ADO_HEVC/wv-pr/manifest.mpd
