@@ -1,0 +1,21 @@
+#EXTM3U x-tvg-url="https://github.com/ouy7549-prog/Unified-MENA-EPG/raw/refs/heads/main/combined_epg_final.xml"
+#EXTINF:-1 tvg-id="STC_92533800185" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="UAE",National Geographic Abu Dhabi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b1e2ae3754ced9e9258a8df46d261390:bc42486b5253920abdd0cb3e727852f5
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/NGAD_HEVC/wv-pr/manifest.mpd
+#EXTINF:-1 tvg-id="STC_65038376202" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_Arabic_logo.png" group-title="أطفال", Cartoon Network Arabic
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ece7bbc683eb35d1e6b3e32cccbd8fb0:f72bd6ea26e243524d58993b58122313
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/CNA_HEVC/wv-pr/manifest.mpd
+#EXTINF:-1 tvg-id="STC_65038376203" tvg-logo="https://i.imgur.com/bELGPOS.png" group-title="أطفال", Cartoon Network HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8442ea8da91e1d0f392515adc680a4f5:4e9b90ac2c26cb08cd34005e08ecf05c
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/TNC_HEVC/wv-pr/manifest.mpd
+#EXTINF:-1 tvg-id="STC_92533800148" tvg-logo="https://i.imgur.com/oOKYqRF.png" group-title="أطفال", Disney
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=72800c62fcf2bfbedd9af27d79ed35d6:b6ccb9facb2c1c81ebe4dfaab8a45195
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/DIS_HEVC/wv-pr/manifest.mpd
