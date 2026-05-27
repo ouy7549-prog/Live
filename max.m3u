@@ -100,7 +100,10 @@ https://fastlyrwb-live.cdn.intigral-ott.net/CBD/CBD.isml/manifest.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/AH1_HEVC/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="STC_92533800210" tvg-logo="https://shahid.mbc.net/mediaObject/d3c4d7f4-64f6-4dbe-a6b5-8bfed1372966?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أطفال", Spacetoon
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2d61037244f336e8b8daf832ffc84003:999b547e5fdd56948315382730852045
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/SPT/SPT.isml/manifest.mpd
 #EXTINF:-1 tvg-id="STC_92533800174" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Majid_TV_logo_2023.svg/250px-Majid_TV_logo_2023.svg.png" group-title="أطفال", ماجد
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01ad62cecdb4194d08b227682d7b1935:d534d7f207baae2e51a279107049f544
