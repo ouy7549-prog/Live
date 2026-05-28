@@ -98,22 +98,22 @@ https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/NGAD_HEVC/wv-pr/manifest.mpd?
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d2a1a984b3f9587bfe450b4335f5f672:59487c0c415a995e9bd2d384d08871b4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/NAR/NAR.isml/manifest.mpd?begin=1777643503
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/NAR/wv-pr/manifest.mpd?begin=1777643503
 #EXTINF:-1 tvg-id="STC_92534311990" tvg-logo="https://i.imgur.com/8NK3auW.png" group-title="مصرية", Al Nahar Drama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f6204e4d7aa3538fded62be8c04ad0c7:0d6e44ff40173c6de135c4544d6cb888
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/NAD/NAD.isml/manifest.mpd?begin=1777643503
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/NAD/wv-pr/manifest.mpd?begin=1777643503
 #EXTINF:-1 tvg-id="STC_73482792078" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CBC_TV.png/1280px-CBC_TV.png" group-title="مصرية", CBC
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=92e25d983c1cc0f0aa7c6981c8a0d9f4:87e328a98f971797feb9b30c4555d82b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/CBC/CBC.isml/manifest.mpd?begin=1777643503
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/CBC/wv-pr/manifest.mpd?begin=1777643503
 #EXTINF:-1 tvg-id="STC_73482792079" tvg-logo="https://i.imgur.com/bhq2DLF.png" group-title="مصرية", CBC Drama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bbe52bf1e9dedfb41ec620eee7455c93:7c005ea4fa236bfb9fd5f97336feb637
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/CBD/CBD.isml/manifest.mpd?begin=1777643503
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/CBD/wv-pr/manifest.mpd?begin=1777643503
 #EXTINF:-1 tvg-id="STC_92533800051" tvg-logo="https://i.imgur.com/FOO79dS.png" group-title="مصرية", Al Hayat
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=aad33a029c39e70a58600b54ae5b8dee:24ea749523d73b7a087ba61c16568f4b
@@ -123,7 +123,7 @@ https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/AH1_HEVC/wv-pr/manifest.mpd?b
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2d61037244f336e8b8daf832ffc84003:999b547e5fdd56948315382730852045
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/SPT/SPT.isml/manifest.mpd?begin=1777643503
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/SPT/wv-pr/manifest.mpd?begin=1777643503
 #EXTINF:-1 tvg-id="STC_92533800174" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Majid_TV_logo_2023.svg/250px-Majid_TV_logo_2023.svg.png" group-title="أطفال", ماجد
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=64d581b1c69f62ded3d3085245ee74d9:ff66c471d1fb0e2c3140ee8a62814d8b
