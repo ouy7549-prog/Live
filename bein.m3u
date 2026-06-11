@@ -1,19 +1,5 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/EUnhOf4.png" group-title="beIN Sports",beIN Sports 1 4K
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/1920px-Bein_sport_logo.png" group-title="",beIN Sports
 http://afcocafot.com:8080/bn14k/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/NwjNTqi.png" group-title="beIN Sports",beIN Sports 2 4K
-http://afcocafot.com:8080/bn24k/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/jRWkoMM.png" group-title="beIN Sports",beIN Sports 3 4K
-http://afcocafot.com:8080/bn34k/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/EUnhOf4.png" group-title="beIN Sports",beIN Sports 1 HD
-http://afcocafot.com:8080/bn1hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/NwjNTqi.png" group-title="beIN Sports",beIN Sports 2 HD
-http://afcocafot.com:8080/bn2hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/jRWkoMM.png" group-title="beIN Sports",beIN Sports 3 HD
-http://afcocafot.com:8080/bn3hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/EUnhOf4.png" group-title="beIN Sports",beIN Sports 1
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/adaptive.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/NwjNTqi.png" group-title="beIN Sports",beIN Sports 2
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/adaptive.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/jRWkoMM.png" group-title="beIN Sports",beIN Sports 3
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch3/adaptive.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/f/fa/%D8%A8%D9%8A_%D8%A5%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA_%D8%A7%D9%84%D8%A5%D8%AE%D8%A8%D8%A7%D8%B1%D9%8A%D8%A9.png" group-title="",beIN News
+https://connect-live.bein.com/besmenasportsnews/index.mpd?hdnts=data=env=beinmena-production,customerID=0,clientID=256,jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZF9jaGFubmVsIjo3NSwiYXBpcCI6IjY0LjEzNy4xOTkuMjIwIiwiaWRfaWRlbnRpdHkiOjAsImlkX2RldmljZSI6Im9wZW5hcGkiLCJpZF9jdXN0b21lciI6MCwiaWRfc3RyZWFtIjoiZjIyYTYxZGQtYmJmOC00OTIwLThjMWEtODE4Y2U5ZGNiZTU4In0.YEeupTgjYZakWSIj9D4_xVmb7QPCECHk1NoLSs2FSzc~st=1781210287~exp=1781217487~acl=/besmenasportsnews/*~hmac=5672bc595df5bed746d4692e879b622c5d749323c894603733fb31257d328801&?idChannel=75&playerName=bitmovin-web&playerVersion=10.0&checksum=svV61Z364Lxe99%2FmzpzvMMST1Q1dUGVL7zNM2cEfqFU%3D
