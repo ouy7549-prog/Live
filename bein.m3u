@@ -1,5 +1,49 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/1920px-Bein_sport_logo.png" group-title="",beIN Sports
-https://connect-live.bein.com/besmenasports/index.mpd?hdnts=data=env=beinmena-production,customerID=0,clientID=256,jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZF9jaGFubmVsIjo3NCwiYXBpcCI6IjY0LjEzNy4xOTkuMjIwIiwiaWRfaWRlbnRpdHkiOjAsImlkX2RldmljZSI6Im9wZW5hcGkiLCJpZF9jdXN0b21lciI6MCwiaWRfc3RyZWFtIjoiZGE3OTgxYmYtMmVjMi00YzgzLTlkMGMtNTIyNzliMzc2YmZmIn0.NWC_Jda-jYvOlqPfzt5Y8y5auYBdaqAf4J7xgVVXcZQ~st=1781275602~exp=1781282802~acl=/besmenasports/*~hmac=b6d1402df9607092740d77cf0ca228ab06b3098d39df9fe53e076de1ce5f45a4&?idChannel=74&playerName=bitmovin-web&playerVersion=10.0&checksum=IxdUGgtzleC%2BdcaNMmZeOClGauYnuJdsKg5uOwtm3JE%3D
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/f/fa/%D8%A8%D9%8A_%D8%A5%D9%86_%D8%B3%D8%A8%D9%88%D8%B1%D8%AA_%D8%A7%D9%84%D8%A5%D8%AE%D8%A8%D8%A7%D8%B1%D9%8A%D8%A9.png" group-title="",beIN News
-https://connect-live.bein.com/besmenasportsnews/index.mpd?hdnts=data=env=beinmena-production,customerID=0,clientID=256,jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZF9jaGFubmVsIjo3NSwiYXBpcCI6IjY0LjEzNy4xOTkuMjIwIiwiaWRfaWRlbnRpdHkiOjAsImlkX2RldmljZSI6Im9wZW5hcGkiLCJpZF9jdXN0b21lciI6MCwiaWRfc3RyZWFtIjoiYTVjZjczNDEtMTllNC00ZmYxLTgxNTQtY2MzODE4NzIzMGZjIn0.oBla-Gr_9R5UbufCfRymMI3WuBJRnIokua1ECgp7QRo~st=1781275693~exp=1781282893~acl=/besmenasportsnews/*~hmac=8d29faf660582fe5b2b36974e222940e51299e007b615f2f69ddfefea8897ab9&?idChannel=75&playerName=bitmovin-web&playerVersion=10.0&checksum=svV61Z364Lxe99%2FmzpzvMMST1Q1dUGVL7zNM2cEfqFU%3D
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=101&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 1 4K
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291494.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=102&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 2 4K
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291495.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=216&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 3 4K
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291496.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=217&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 4 4K
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291497.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=213&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 5 4K
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291498.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=218&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 6 4K
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291499.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=101&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 1 FHD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291500.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=102&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 2 FHD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291501.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=216&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 3 FHD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291502.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=217&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 4 FHD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291503.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=213&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 5 FHD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291504.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=218&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 6 FHD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291505.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=101&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 1 HD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291506.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=102&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 2 HD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291507.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=216&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 3 HD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291508.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=217&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 4 HD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291509.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=213&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 5 HD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291510.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=218&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 6 HD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291511.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=101&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 1 SD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291512.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=102&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 2 SD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291513.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=216&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 3 SD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291514.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=217&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 4 SD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291515.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=213&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 5 SD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291516.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://bein-mena-production.eu-west-2.ancdn.tv/proxy/imgdata?objectId=218&type=100&format_w=125&format_h=125&ratio=1&languageId=ara" group-title="AR | BEIN MAX",Bein Sports Max 6 SD
+http://core.itsall.pro:80/live/Allgoodlotfi/hhDZSxCpeD/291517.ts
