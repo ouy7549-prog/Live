@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="" " group-title="",Bein Sports HD
-https://connect-live.bein.com/besmenasports/index.mpd?hdnts=data=env=beinmena-production,customerID=0,clientID=256,jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZF9jaGFubmVsIjo3NCwiYXBpcCI6IjY2LjExOC4xNTUuNzYiLCJpZF9pZGVudGl0eSI6MCwiaWRfZGV2aWNlIjoib3BlbmFwaSIsImlkX2N1c3RvbWVyIjowLCJpZF9zdHJlYW0iOiJmYTc3NmYwNC0xZjkxLTRlYjMtODhmMC00YmI0Y2ZkNTE2MjMifQ.lIgblp8hG_2mFUlP19-aEiVGrR6yNpz4QHaWjIXTfx0~st=1781551730~exp=1781594930~acl=/besmenasports/*~hmac=cbccc2e05e35454261a5867037fa2b76b003c629c6a70a7bcec12682bb3c4a95&?idChannel=74&playerName=bitmovin-web&playerVersion=10.0&checksum=IxdUGgtzleC%2BdcaNMmZeOClGauYnuJdsKg5uOwtm3JE%3D
 #EXTINF:-1 tvg-id="" " group-title="",Bein Sports Max 1 FHD
 https://viznf.gdgdfhbdfidsf.xyz/1781557198/9bad65da10df44e48244d36458a62f97/n_FnCo8z4vHFol9klPbEu_-bAZAtx3hkj3QG0mLTDmI/beinsportsmax-sa.m3u8
 #EXTINF:-1 tvg-id="" " group-title="",Bein Sports Max 2 FHD
