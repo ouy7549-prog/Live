@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max 1 FHD
-https://streamxyz.shop/bein/index.m3u8
+http://192.168.3.172:5000/play/max1
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="",Bein Sports Max 2 FHD
 http://192.168.3.172:5000/play/max2
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4BIKpSj.png" group-title="",Bein Sports Max 3 FHD
