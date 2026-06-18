@@ -10,7 +10,9 @@ https://vixxox.cdx-08191.space/1781650634/0455a9a5330243b09cf08b8db2aa26b4/v6aOi
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/m7mbhuR.png" group-title="",Bein Sports Max 4 FHD
 https://vixxox.cdx-08191.space/1781650662/76f7e1a5ae574893b2b8c6481a3cc7ed/WMsukz_td28Muh-dh0dkQrDa6XnwgPn3hC0ZOnvEQfg/beinsportsmax4-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="",Fox 4K
-https://vixxox.cdx-08191.space/1781650300/6843564fb5f24cac882c554e31681bfb/9WRuHOagm39oh2-N4xWnFmsvfYz9-QEYgGecnNTsg3Y/fox4k-usa.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7
+https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="",Fox FHD
 https://vixxox.cdx-08191.space/1781642754/a624c7de44b14453bf897f2f4964fb0e/n1dOdQQbBSmCu79EuiEtpVNbP7f3My_jvqhCNNxowVI/foxprime-usa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOyMZ7X.png" group-title="",Fox Sports 1 4K
