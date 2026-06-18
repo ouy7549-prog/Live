@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="",Bein Sports HDR
 https://vixxox.cdx-08191.space/1781650574/37a6476901514bfb9cfe3d3b1921a56c/0PF94mJjKl_f9xH9rwBaQJZNCeKOUVixKCX5lvjnb00/beinsportsuhd-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max 1 FHD
-https://vixxox.cdx-08191.space/1781650606/c4f4d2a98edd49c18502e3b40d417762/_w_sv6MeeoDv_efUNVJQZfUBFo-0cwf2DcS83rPHoAs/beinsportsmax-sa.m3u8
+https://raw.githubusercontent.com/ON2026/1smas/refs/heads/main/mx2app2.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="",Bein Sports Max 2 FHD
 https://vixxox.cdx-08191.space/1781650693/2f9cca20a235420099d7155850a94aae/9sj6SJvTgwNu9SmldhlL0qJcOHEIaQWelpIAUl3JASE/beinsportsmax2-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4BIKpSj.png" group-title="",Bein Sports Max 3 FHD
@@ -18,7 +18,9 @@ https://vixxox.cdx-08191.space/1781650466/d9e6ac542d7741929325b55fc26d67ef/wK2Zf
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOyMZ7X.png" group-title="",Fox Sports 1 FHD
 https://vixxox.cdx-08191.space/1781650499/bea7cfd1c8f54dcc8182644e3061c297/fVlBr9AgCZxBTAdf2yGzfBa5ROnNZKRSXo60A0rDvWU/fox-sports-1-fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 1 4K
-https://vixxox.cdx-08191.space/1781650369/037545fb61e644ce9ba5b229146e794b/ovzysQdcoF8Uc8PkTukMw1_zsu4dC5BW4cZY4emuNTk/fusballtv1uhd-de.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1f09d5788fbbb03a053d03cc731f31a9:d493d5a70c793362324638f61d1726ac
+https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 2 4K
 https://vixxox.cdx-08191.space/1781650393/e7996417406c4de3bb578c922d86505b/i49AbjkFOr0a9Sp2nQHARgNZOHOoHGm2290fUnQ2Rbs/fusballtv2uhd-de.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/2uWSc8D.png" group-title="",BBC One 4K
