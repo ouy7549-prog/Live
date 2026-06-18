@@ -12,6 +12,7 @@ https://vixxox.cdx-08191.space/1781650662/76f7e1a5ae574893b2b8c6481a3cc7ed/WMsuk
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="",Fox 4K
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="",Fox FHD
 https://vixxox.cdx-08191.space/1781642754/a624c7de44b14453bf897f2f4964fb0e/n1dOdQQbBSmCu79EuiEtpVNbP7f3My_jvqhCNNxowVI/foxprime-usa.m3u8
@@ -22,6 +23,7 @@ https://vixxox.cdx-08191.space/1781650499/bea7cfd1c8f54dcc8182644e3061c297/fVlBr
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 1 4K
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1f09d5788fbbb03a053d03cc731f31a9:d493d5a70c793362324638f61d1726ac
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 2 4K
 https://vixxox.cdx-08191.space/1781650393/e7996417406c4de3bb578c922d86505b/i49AbjkFOr0a9Sp2nQHARgNZOHOoHGm2290fUnQ2Rbs/fusballtv2uhd-de.m3u8
