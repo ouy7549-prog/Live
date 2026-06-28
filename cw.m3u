@@ -1,23 +1,29 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="",Bein Sports HDR
-https://inproviszon.st/beinsportsuhd-sa.m3u8
+https://cdn011.viaplus.site/bein4k-xyz.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="",Bein Sports HDR (Other Source)
+https://cdn011.viaplus.site/beinsportsuhd-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max 1 FHD
-https://inproviszon.st/beinsportsmax-sa.m3u8
+https://cdn011.viaplus.site/beinsportsmax-sa.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max 1 FHD (Other Source)
+https://cdn011.viaplus.site/bein-xyz.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="",Bein Sports Max 2 FHD
-https://inproviszon.st/beinsportsmax2-sa.m3u8
+https://cdn011.viaplus.site/beinsportsmax2-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4BIKpSj.png" group-title="",Bein Sports Max 3 FHD
-https://inproviszon.st/beinsportsmax3-sa.m3u8
+https://cdn011.viaplus.site/beinsportsmax3-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/m7mbhuR.png" group-title="",Bein Sports Max 4 FHD
-https://inproviszon.st/beinsportsmax4-sa.m3u8
+https://cdn011.viaplus.site/beinsportsmax4-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IQvfYbf.png" group-title="",Bein Sports Max 5 FHD
-https://inproviszon.st/beinsportsmax5-sa.m3u8
+https://cdn011.viaplus.site/beinsportsmax5-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ccRDpeO.png" group-title="",Bein Sports Max 6 FHD
-https://inproviszon.st/beinsportsmax6-sa.m3u8
+https://cdn011.viaplus.site/beinsportsmax6-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="",Fox 4K
-https://inproviszon.st/fox4k-usa.m3u8
+https://cdn011.viaplus.site/fox4k-usa.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="",Fox 4K (Other Source)
+https://cdn011.viaplus.site/fox4k-xyz.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOyMZ7X.png" group-title="",Fox Sports 1 4K
-https://inproviszon.st/fox-sports-1-4k.m3u8
+https://cdn011.viaplus.site/fox-sports-1-4k.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 1 4K
-https://inproviszon.st/fusballtv1uhd-de.m3u8
+https://cdn011.viaplus.site/fusballtv1uhd-de.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 2 4K
-https://inproviszon.st/fusballtv2uhd-de.m3u8
+https://cdn011.viaplus.site/fusballtv2uhd-de.m3u8
