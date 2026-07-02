@@ -15,7 +15,8 @@ https://inproviszon.st/bein-xyz-waUvqaAACr.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/fox4k-usa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOyMZ7X.png" group-title="",Fox Sports 1 4K
-https://cdn011.viaplus.site/fox-sports-1-4k.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
+https://inproviszon.st/fox-sports-1-4k.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/pchblwQ.png" group-title="",Fussball TV 1 4K
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/fussballtv1uhd-de.m3u8
