@@ -8,28 +8,17 @@ https://inproviszon.st/bein4k-xyz-waUvqaAACr.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max 1 FHD
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/beinsportsmax-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max 1 FHD (Other Source)
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max FHD (1 or 2)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/bein-xyz-waUvqaAACr.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="",Bein Sports Max 2 FHD
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
-https://inproviszon.st/beinsportsmax2-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4BIKpSj.png" group-title="",Bein Sports Max 3 FHD
-https://cdn011.viaplus.site/beinsportsmax3-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/m7mbhuR.png" group-title="",Bein Sports Max 4 FHD
-https://cdn011.viaplus.site/beinsportsmax4-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IQvfYbf.png" group-title="",Bein Sports Max 5 FHD
-https://cdn011.viaplus.site/beinsportsmax5-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ccRDpeO.png" group-title="",Bein Sports Max 6 FHD
-https://cdn011.viaplus.site/beinsportsmax6-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="",Fox 4K
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/fox4k-usa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOyMZ7X.png" group-title="",Fox Sports 1 4K
 https://cdn011.viaplus.site/fox-sports-1-4k.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 1 4K
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/pchblwQ.png" group-title="",Fussball TV 1 4K
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/fussballtv1uhd-de.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/oLQ9eq1.png" group-title="",Fusball TV 2 4K
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/2EOcnyM.png" group-title="",Fussball TV 2 4K
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
-https://inproviszon.st/fussballtv2uhd-de.m3u8
+https://inproviszon.st/fussballtvuhd-de.m3u8
