@@ -1,8 +1,5 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="CW",Bein Sports HDR
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
-https://inproviszon.st/beinsportsuhd-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="CW",Bein Sports HDR (Other Source)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st/
 https://inproviszon.st/bein4k-xyz-waUvqaAACr.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="CW",Bein Sports Max 1 FHD
@@ -11,7 +8,7 @@ https://inproviszon.st/beinsportsmax-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="CW",Bein Sports Max 2 FHD
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/beinsportsmax2-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="CW",Bein Sports Max FHD (1 or 2)
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/nmlreUl.png" group-title="CW",Bein Sports Max FHD (1 or 2)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://inproviszon.st/bein-xyz-waUvqaAACr.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="CW",Fox 4K
@@ -80,35 +77,75 @@ http://ugeen.live:8080/Ugeen_VIPcL1Hnv/AtAG5x/4551
 http://ugeen.live:8080/Ugeen_VIPcL1Hnv/AtAG5x/4552
 #EXTINF:-1 tvg-id="" tvg-name="MAX 2*" tvg-logo="" group-title=" World  Cup  2026⚽",MAX 2*
 http://ugeen.live:8080/Ugeen_VIPcL1Hnv/AtAG5x/4553
-#EXTINF:-1 tvg-id="paraguayvsfrance2200foxsports4k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (FOX SPORTS 4K)
+#EXTINF:-1 tvg-id="brazilvsnorway2100foxone4k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FOX ONE 4K)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/ihpzducmif/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd
-#EXTINF:-1 tvg-id="paraguayvsfrance2200fussballtv4k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (FUSSBALL TV 4K)
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/gu2hxfshmt/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd
+#EXTINF:-1 tvg-id="brazilvsnorway2100foxonefhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FOX ONE FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7
+https://abeqnpaaaaaaaaamkm25dx7jyzllj.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
+#EXTINF:-1 tvg-id="brazilvsnorway2100fussballtv4k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL TV 4K)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4f558eae1b005126b2ac6e9eb1a7849e:17aea325d91b5e66f06a8c574f2f0b03
 https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd
-#EXTINF:-1 tvg-id="paraguayvsfrance2200fussballtv24k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (FUSSBALL TV2 4K)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ccdf9f3d9bbf5c508adf04f81918a285:66cf0524fcc2eb0c7dab8bbbf8829827
-https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_2_UHD/default/index.mpd
-#EXTINF:-1 tvg-id="paraguayvsfrance2200fussball4kger" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (FUSSBALL 4K  GER )
+#EXTINF:-1 tvg-id="brazilvsnorway2100fussball4kger" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL 4K  GER )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1f09d5788fbbb03a053d03cc731f31a9:d493d5a70c793362324638f61d1726ac
 https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd
-#EXTINF:-1 tvg-id="paraguayvsfrance2200fussball24kger" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (FUSSBALL2 4K  GER )
+#EXTINF:-1 tvg-id="brazilvsnorway2100fussball24kger" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL2 4K  GER )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1b98a0f2de7784c6e132942385a089f3:546eae09a8d81c498dfd08532dcd68a5
 https://svc45.main.sl.t-online.de/bpk-tv/KID01064_FUSSBALLTV2_uhd/DASH/index.mpd
-#EXTINF:-1 tvg-id="paraguayvsfrance2200fussballtvfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (FUSSBALL TV FHD)
+#EXTINF:-1 tvg-id="brazilvsnorway2100fussballtv24k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL TV2 4K)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ccdf9f3d9bbf5c508adf04f81918a285:66cf0524fcc2eb0c7dab8bbbf8829827
+https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_2_UHD/default/index.mpd
+#EXTINF:-1 tvg-id="brazilvsnorway2100fussballtvfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL TV FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1cb20afcd9d979c833cfd208c7d3eeb2:fef0c15b4a523370892edd5e4133c269
 https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd
-#EXTINF:-1 tvg-id="paraguayvsfrance2200fussball2tvfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (FUSSBALL2 TV FHD)
+#EXTINF:-1 tvg-id="brazilvsnorway2100fussball2tvfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL2 TV FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1889c6c8cdf57aa3bc90bb976ca6cbdc:48ef3649d9076965b70e79e58b0028ef
 https://svc45.main.sl.t-online.de/bpk-tv/KID01064_FUSSBALLTV2_hd/DASH/index.mpd
-#EXTINF:-1 tvg-id="paraguayvsfrance2200tsn4sportsfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",Paraguay vs France 22:00 (TSN4 SPORTS FHD)
+#EXTINF:-1 tvg-id="brazilvsnorway2100tsnsportsfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(TSN SPORTS FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
+#EXTINF:-1 tvg-id="brazilvsnorway2100tsn4sportsfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(TSN4 SPORTS FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
+#EXTINF:-1 tvg-id="brazilvsnorway2100ctvsportsfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(CTV SPORTS FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d185684e2330de5bea436daa094a5e86:014f0116154f5bf0050e03a6b0a23157
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd
+#EXTINF:-1 tvg-id="paraguayvsfrance2200fussballtv4k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL TV 4K)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4f558eae1b005126b2ac6e9eb1a7849e:17aea325d91b5e66f06a8c574f2f0b03
+https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd
+#EXTINF:-1 tvg-id="paraguayvsfrance2200fussballtv24k" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL TV2 4K)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ccdf9f3d9bbf5c508adf04f81918a285:66cf0524fcc2eb0c7dab8bbbf8829827
+https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_2_UHD/default/index.mpd
+#EXTINF:-1 tvg-id="paraguayvsfrance2200fussball4kger" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL 4K  GER )
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1f09d5788fbbb03a053d03cc731f31a9:d493d5a70c793362324638f61d1726ac
+https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd
+#EXTINF:-1 tvg-id="paraguayvsfrance2200fussball24kger" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL2 4K  GER )
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1b98a0f2de7784c6e132942385a089f3:546eae09a8d81c498dfd08532dcd68a5
+https://svc45.main.sl.t-online.de/bpk-tv/KID01064_FUSSBALLTV2_uhd/DASH/index.mpd
+#EXTINF:-1 tvg-id="paraguayvsfrance2200fussballtvfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL TV FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1cb20afcd9d979c833cfd208c7d3eeb2:fef0c15b4a523370892edd5e4133c269
+https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd
+#EXTINF:-1 tvg-id="paraguayvsfrance2200fussball2tvfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(FUSSBALL2 TV FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1889c6c8cdf57aa3bc90bb976ca6cbdc:48ef3649d9076965b70e79e58b0028ef
+https://svc45.main.sl.t-online.de/bpk-tv/KID01064_FUSSBALLTV2_hd/DASH/index.mpd
+#EXTINF:-1 tvg-id="paraguayvsfrance2200tsn4sportsfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Fifa world cup",(TSN4 SPORTS FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
