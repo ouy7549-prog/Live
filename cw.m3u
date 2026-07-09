@@ -1,30 +1,21 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="CW",Bein Sports HDR
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
-https://pacquiao.inproviszon.st/beinsportsuhd-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="CW",Bein Sports HDR (Other Source)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st/
-https://pacquiao.inproviszon.st/bein4k-xyz-waUvqaAACr.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="CW",Bein Sports Max 1 FHD
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
-https://pacquiao.inproviszon.st/beinsportsmax-sa.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="CW",Bein Sports Max 2 FHD
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
-https://pacquiao.inproviszon.st/beinsportsmax2-sa.m3u8
+https://pacquiao.inproviszon.st/bein4k-xyz-waUvqaAAC.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/nmlreUl.png" group-title="CW",Bein Sports Max FHD (1 or 2)
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
-https://pacquiao.inproviszon.st/bein-xyz-waUvqaAACr.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st
+https://pacquiao.inproviszon.st/bein-xyz-waUvqaAAC.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="CW",Fox 4K
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st
 https://pacquiao.inproviszon.st/fox4k-usa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOyMZ7X.png" group-title="CW",Fox Sports 1 4K
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
 https://pacquiao.inproviszon.st/fox-sports-1-4k.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/pchblwQ.png" group-title="",Fussball TV 1 4K
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st
 https://pacquiao.inproviszon.st/fussballtv1uhd-de.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/2EOcnyM.png" group-title="CW",Fussball TV 2 4K
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://vileembeds.pages.dev/&Origin=https://vileembeds.pages.dev/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st
 https://pacquiao.inproviszon.st/fussballtvuhd-de.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="⚽ beIN MAX 1⁴ᴷ (8K)" tvg-logo="" group-title=" World  Cup  2026⚽",⚽ beIN MAX 1⁴ᴷ (8K)
 http://ugeen.live:8080/Ugeen_VIPcL1Hnv/AtAG5x/4540
