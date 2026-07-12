@@ -1,19 +1,19 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="CW",Bein Sports HDR
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st/
-https://vinix.inproviszon.st/main/secure/b9086573b6f373eb4bd81d169f99ce920986eb558d2bfb63a2bc6006c2e75ec8/1783822505/beinsportsuhd-sa.m3u8
+https://vinix.inproviszon.st/main/secure/43ad277cc654f1730caa67239c230888c1cdb2109be703dcbd276d72dfd6996a/1783823084/beinsportsuhd-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Z4Rb3p7.png" group-title="CW",Bein Sports HDR (Other Source)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st/
-https://vinix.inproviszon.st/main/secure/47843cf1f570523aad55ba141a6b9c3c357183c4d4c7c45e696788494e1287b5/1783822529/bein4k-xyz-waUvqaAAC.m3u8
+https://vinix.inproviszon.st/main/secure/6a64a566f54934f95f6643f1df4da4a950f02e3f3f7ea5c76f8433518db007b2/1783823174/bein4k-xyz-waUvqaAAC.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="",Bein Sports Max 1 FHD
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st/
-https://vinix.inproviszon.st/main/secure/a5d5908f837537810804e548ba374553de9fa5c2420a1dd4f9fcd96a25c97a2a/1783822574/beinsportsmax-sa.m3u8
+https://vinix.inproviszon.st/main/secure/7e4d26de9f93a979b2a239f30d289456d225ba13058d9f66a62d5fd39a4f6659/1783823108/beinsportsmax-sa.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="",Bein Sports Max 2 FHD
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st/
-https://pacquiao.inproviszon.st/beinsportsmax2-sa.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://player.viloud.tv/&Origin=https://player.viloud.tv
+https://admin.dabomarket.com/bein1.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/nmlreUl.png" group-title="CW",Bein Sports Max FHD (1 or 2)
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st
-https://vinix.inproviszon.st/main/secure/544c191ac00baec586ac1ed0e328a0ac85a23a211be0735b60b930f249cbfe5e/1783822554/bein-xyz-waUvqaAAC.m3u8
+https://vinix.inproviszon.st/main/secure/044b8ccb41c59ca9f9e031a8adb05fd905f8b19d70a36319bf6c49fc359861c7/1783823137/bein-xyz-waUvqaAAC.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WnLMAL5.png" group-title="CW",Fox 4K
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&Referer=https://xyzstreams.st/&Origin=https://xyzstreams.st
 https://pacquiao.inproviszon.st/fox4k-usa.m3u8
