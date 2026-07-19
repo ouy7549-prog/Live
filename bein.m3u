@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/56nJuTH.png" group-title="",Bein Sports HD
-https://connect-live.bein.com/besmenasports/index.mpd
+https://connect-live.bein.com/besmenasports/index.mpd?hdnts=data=env=beinmena-production,customerID=0,clientID=256,jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZF9jaGFubmVsIjo3NCwiYXBpcCI6IjY0LjEzNy4yMjYuMTc4IiwiaWRfaWRlbnRpdHkiOjAsImlkX2RldmljZSI6Im9wZW5hcGkiLCJpZF9jdXN0b21lciI6MCwiaWRfc3RyZWFtIjoiNTNiMDU4N2ItZGU3OC00NmEyLWIwMDgtNzMzNGZjZWIwOTAyIn0.rhODQxfijzo0BxYgRLMiimsNihIvjAaVWbJrFviWpZg~st=1784484928~exp=1784528128~acl=/besmenasports/*~hmac=e4ebc08bfab8f509a6718814d50ede8c62362b753756c34a38e8e78e33fc9af1&?idChannel=74&playerName=bitmovin-web&playerVersion=10.0&checksum=IxdUGgtzleC%2BdcaNMmZeOClGauYnuJdsKg5uOwtm3JE%3D
 #EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="Bein Sports Max 1 4K" tvg-logo="https://i.imgur.com/7GBG5n3.png" group-title="BEIN MAX [F] كأس العالم",Bein Sports Max 1 4K
 http://mr7al.ink:80/live/2816429324789/6527985287321/377279.ts
 #EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="Bein Sports Max 2 4K" tvg-logo="https://i.imgur.com/ieKRuUJ.png" group-title="BEIN MAX [F] كأس العالم",Bein Sports Max 2 4K
