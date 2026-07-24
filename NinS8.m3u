@@ -1,0 +1,51 @@
+#EXTM3U x-tvg-url=""
+#EXTINF:-1 tvg-id="820228" tvg-logo="https://i.imgur.com/C5Thmje.png" group-title="Season 8", Episode 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5332c800d26f423392c2002bc3d42eab:bec9d1b6a1b82d5f2e8cca56fb922113
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/f167904c5a6f46a19c04b0bbeac3c5fc/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820229" tvg-logo="https://i.imgur.com/jB3sUS6.png" group-title="Season 8", Episode 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6801ee07a9b34413961a35281aebc814:b215604b165aa72dcfb6aefa29453dbf
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/6afdaf3033a84288bd03930f6043fa65/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820230" tvg-logo="https://i.imgur.com/xXNU3mp.png" group-title="Season 8", Episode 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d078a82ce04f479499f4abd086813c10:13261850627b1be6d1cb0beaad0e528c
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+ https://mbc-aws-ksa.mncdn.com/out/v1/5909d41f7bb84b4186d62b2464889c11/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820231" tvg-logo="https://i.imgur.com/HdaLcRN.png" group-title="Season 8", Episode 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4675530ce0244007b965a2ff512d4f96:b2ab7668dffce9c026fac9b79313c690
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/1717ca46466b43e6b463cde92d2fdbdd/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820243" tvg-logo="https://i.imgur.com/GwEoVoe.png" group-title="Season 8", Episode 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4675530ce0244007b965a2ff512d4f96:b2ab7668dffce9c026fac9b79313c690
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/b66af73630764452af2de07152b438d7/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820245" tvg-logo="https://i.imgur.com/wchGVtq.png" group-title="Season 8", Episode 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4675530ce0244007b965a2ff512d4f96:b2ab7668dffce9c026fac9b79313c690
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/767d1df1016d499d99d0bb8a34c3484f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820246" tvg-logo="https://i.imgur.com/duva4dz.png" group-title="Season 8", Episode 7
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cf247dfb63584eb8ab3ca2fa4c3ff3be:e9e574f51c7ee3ed1b2ef298a3099505
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/362b297175cd4d7fb77df2c92ecc2119/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820248" tvg-logo="https://i.imgur.com/nuEuA3R.png" group-title="Season 8", Episode 8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bff3d40523854e629c4e33aad732498d:d1fd8d4e605e3d7516f11589371cd770
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/fd287fd67a094d86b419eb2980881fe2/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820249" tvg-logo="https://i.imgur.com/qeziR3S.png" group-title="Season 8", Episode 9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=104dfe16f80b4398bf3573319ffec81b:c6433f15f16e8bc00ef5f2c74dce1b15
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/4d26bacbe8784052be66acbb99c91dd4/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="820250" tvg-logo="https://i.imgur.com/GtGRsRt.png" group-title="Season 8", Episode 10
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=32b1fdbb38de498881439c93ce0f438c:f85a3e4a9c78202b5977644ddf0dbf04
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/e77ef98776614f9c952da5087a0db4ba/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
