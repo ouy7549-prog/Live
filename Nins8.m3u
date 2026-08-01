@@ -1,43 +1,43 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="820228" tvg-logo="https://i.imgur.com/C5Thmje.png" group-title="Season 8", Episode 1
+#EXTINF:-1 tvg-id="820228" tvg-name="Ninjgo S08 E01" tvg-logo="https://i.imgur.com/C5Thmje.png" group-title="Season 8", Episode 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9a068d4b522edc84a3b8510f2a79642e:42e4239666b680c83c5cc400dfb1a90c
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E001/aa8356eb29ab262f81f8c883101d699b/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E001.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E001.mpd
-#EXTINF:-1 tvg-id="820229" tvg-logo="https://i.imgur.com/jB3sUS6.png" group-title="Season 8", Episode 2
+#EXTINF:-1 tvg-id="820229" tvg-name="Ninjgo S08 E02 tvg-logo="https://i.imgur.com/jB3sUS6.png" group-title="Season 8", Episode 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6801ee07a9b34413961a35281aebc814:b215604b165aa72dcfb6aefa29453dbf
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://mbc-aws-ksa.mncdn.com/out/v1/6afdaf3033a84288bd03930f6043fa65/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
-#EXTINF:-1 tvg-id="820230" tvg-logo="https://i.imgur.com/xXNU3mp.png" group-title="Season 8", Episode 3
+#EXTINF:-1 tvg-id="820230" tvg-name="Ninjgo S08 E03 tvg-logo="https://i.imgur.com/xXNU3mp.png" group-title="Season 8", Episode 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d078a82ce04f479499f4abd086813c10:13261850627b1be6d1cb0beaad0e528c
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://mbc-aws-ksa.mncdn.com/out/v1/5909d41f7bb84b4186d62b2464889c11/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
-#EXTINF:-1 tvg-id="820231" tvg-logo="https://i.imgur.com/HdaLcRN.png" group-title="Season 8", Episode 4
+#EXTINF:-1 tvg-id="820231" tvg-name="Ninjgo S08 E04 tvg-logo="https://i.imgur.com/HdaLcRN.png" group-title="Season 8", Episode 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b34ef1b734686cd04ac154d033ad456:b667a569942f832c730ea7e570c8f226
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E003/3b3dbf38a8531f42b8014cce6396ae54/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E003.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E003.mpd
-#EXTINF:-1 tvg-id="820243" tvg-logo="https://i.imgur.com/GwEoVoe.png" group-title="Season 8", Episode 5
+#EXTINF:-1 tvg-id="820243" tvg-name="Ninjgo S08 E05 tvg-logo="https://i.imgur.com/GwEoVoe.png" group-title="Season 8", Episode 5
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8430931e0f3ea5ff6755460078174643:be0208383522df705e9a1c026f666a05
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E004/6330f014b47b2e1cfeba144e4bb41ad8/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E004.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E004.mpd
-#EXTINF:-1 tvg-id="820245" tvg-logo="https://i.imgur.com/wchGVtq.png" group-title="Season 8", Episode 6
+#EXTINF:-1 tvg-id="820245" tvg-name="Ninjgo S08 E06 tvg-logo="https://i.imgur.com/wchGVtq.png" group-title="Season 8", Episode 6
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=864888c4d613aa3e294de33070d34946:90c8cc1641c35290bc02861832235a1f
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E005/a2f4fd0ed229307d58d7fc2377d78adb/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E005.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E005.mpd
-#EXTINF:-1 tvg-id="820246" tvg-logo="https://i.imgur.com/duva4dz.png" group-title="Season 8", Episode 7
+#EXTINF:-1 tvg-id="820246" tvg-name="Ninjgo S08 E07 tvg-logo="https://i.imgur.com/duva4dz.png" group-title="Season 8", Episode 7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9984e1284acd36f4eeeaa41562040932:1f84ba90ce4cb7a9c761f5397fee552a
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E006/7c8b233a09632abeab86f326f82a969e/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E006.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E006.mpd
-#EXTINF:-1 tvg-id="820248" tvg-logo="https://i.imgur.com/nuEuA3R.png" group-title="Season 8", Episode 8
+#EXTINF:-1 tvg-id="820248" tvg-name="Ninjgo S08 E08 tvg-logo="https://i.imgur.com/nuEuA3R.png" group-title="Season 8", Episode 8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=09fd28b9a577500cdc141e952a202539:6f2d448304f44723889a73a7014b2c6f
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E007/6c90f6ff272dc4dc928afd6a38aa014c/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E007.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E007.mpd
-#EXTINF:-1 tvg-id="820249" tvg-logo="https://i.imgur.com/qeziR3S.png" group-title="Season 8", Episode 9
+#EXTINF:-1 tvg-id="820249" tvg-name="Ninjgo S08 E09 tvg-logo="https://i.imgur.com/qeziR3S.png" group-title="Season 8", Episode 9
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a5201b3e257d1a1dfd9c7031321a19f2:2241db1241367ae09933c80532609fe7
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E008/2c9070686205eb1785a033cdb1c87579/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E008.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E008.mpd
-#EXTINF:-1 tvg-id="820250" tvg-logo="https://i.imgur.com/GtGRsRt.png" group-title="Season 8", Episode 10
+#EXTINF:-1 tvg-id="820250" tvg-name="Ninjgo S08 E10 tvg-logo="https://i.imgur.com/GtGRsRt.png" group-title="Season 8", Episode 10
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc87f4ece6163f30f4de320b8d3254fe:b882e5898e6aa075f5f53f805d128278
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E009/84cf387255d1f353a32c64c161969420/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E009.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E009.mpd
