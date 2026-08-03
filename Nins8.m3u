@@ -41,16 +41,16 @@ https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMAS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc87f4ece6163f30f4de320b8d3254fe:b882e5898e6aa075f5f53f805d128278
 https://mena-vod-addon-cdn-lb.starzplayarabia.com/JIT/SPA/evision/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E009/84cf387255d1f353a32c64c161969420/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E009.ism/LEGONINJAGOMASTERSOFSPINJITZUY2011S08E009.mpd
-#EXTINF:-1 tvg-id="" tvg-name="Ninjgo S09 E01 tvg-logo="https://i.imgur.com/yOGM2mE.png" group-title="Season 9" group-logo="https://shahid.mbc.net/mediaObject/ff33baac-e0a1-421c-8dca-a9a489d2e2f0", Episode 1
+#EXTINF:-1 tvg-id="" tvg-name="Ninjgo S09 E01 tvg-logo="https://i.imgur.com/yOGM2mE.png" group-title="Season 9"  group-logo="https://shahid.mbc.net/mediaObject/ff33baac-e0a1-421c-8dca-a9a489d2e2f0", Episode 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b8598036aedb40f88389df23d47f655b:b66992cff42ccc7a188c6212706944d1
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://mbc-aws-ksa.mncdn.com/out/v1/5681203ce81047d1b820414de16a361b/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
-#EXTINF:-1 tvg-id="" tvg-name="Ninjgo S09 E02 tvg-logo="https://i.imgur.com/3yLzH9e.png" group-title="Season 9" group-logo="https://shahid.mbc.net/mediaObject/ff33baac-e0a1-421c-8dca-a9a489d2e2f0", Episode 2
+#EXTINF:-1 tvg-id="" tvg-name="Ninjgo S09 E02 tvg-logo="https://i.imgur.com/3yLzH9e.png" group-title="Season 9"  group-logo="https://shahid.mbc.net/mediaObject/ff33baac-e0a1-421c-8dca-a9a489d2e2f0", Episode 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5269667e8f904237acfbbf64577b63c8:07e6cfff18b577359dc8d7f09a2c08c1
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
- https://cdxaws-ak.akamaized.net/out/v1/f591991eb06444da88612fa6c25e59a6/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+https://cdxaws-ak.akamaized.net/out/v1/f591991eb06444da88612fa6c25e59a6/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
 #EXTINF:-1 tvg-id="" tvg-name="Ninjgo S09 E03 tvg-logo="https://i.imgur.com/MHAMkuh.png" group-title="Season 9"  group-logo="https://shahid.mbc.net/mediaObject/ff33baac-e0a1-421c-8dca-a9a489d2e2f0", Episode 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f1e2197b4466417e8f83e8dc939849c4:fb0cec292a051bc35f7a0e19d0d56691
