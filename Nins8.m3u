@@ -1,4 +1,4 @@
-#EXTM3U playlist-logo="https://shahid.mbc.net/mediaObject/6915c785-aca2-4dcf-965a-af90381c7630"
+#EXTM3U playlist-logo="https://shahid.mbc.net/mediaObject/6915c785-aca2-4dcf-965a-af90381c7630" tvg-logo=https://shahid.mbc.net/mediaObject/6915c785-aca2-4dcf-965a-af90381c7630"
 #EXTINF:-1 tvg-id="820228" tvg-name="Ninjgo S08 E01" tvg-logo="https://i.imgur.com/C5Thmje.png" group-title="Season 8" group-logo="https://shahid.mbc.net/mediaObject/42415896-02cb-4358-83a2-57e701b09fc0", Episode 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9a068d4b522edc84a3b8510f2a79642e:42e4239666b680c83c5cc400dfb1a90c
