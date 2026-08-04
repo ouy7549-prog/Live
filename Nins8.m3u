@@ -1,4 +1,129 @@
 #EXTM3U type="series" playlist-logo="https://shahid.mbc.net/mediaObject/6915c785-aca2-4dcf-965a-af90381c7630" tvg-logo=https://shahid.mbc.net/mediaObject/6915c785-aca2-4dcf-965a-af90381c7630"
+#EXTINF:-1 tvg-id="2207555527" tvg-name="Ninjgo S01 E01" tvg-logo="https://i.imgur.com/KGGnC7e.png" group-title="Season 1" group-logo="", Episode 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4043764381cd43f98cad8313b7ddf2e6:1b8a1d6d6e827fa68d0fcb151b0629b6
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/ce379353094f485583c42c3b504bbd01/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="207554527" tvg-name="Ninjgo S01 E02" tvg-logo="https://i.imgur.com/lP4LyKe.png" group-title="Season 1" group-logo="", Episode 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ba97fce3e59c4fa180ef89cded05bcf0:5304f3fef6d6015af4e4cf7584f985d6
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/748d99b147e74f5e9da74b1c433f9e68/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="2207553527" tvg-name="Ninjgo S01 E03" tvg-logo="https://i.imgur.com/PA0bqMG.png" group-title="Season 1" group-logo="", Episode 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cb05e5db234f49e9be809d1ea5e79c82:5f629c7408fe681482bd3363733be1d4
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/f72989e4e1c64294b5e9a48d560da486/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="2207552527" tvg-name="Ninjgo S01 E04" tvg-logo="https://i.imgur.com/taxDrE6.png" group-title="Season 1" group-logo="", Episode 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c9dc511cbd1742908f7e5bc54268513b:0a816bec5eb4c6364d7a65e735dc3a01
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/581e4983c41a4fa7af28020482deec81/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="2207551527" tvg-name="Ninjgo S01 E05" tvg-logo="https://i.imgur.com/G6B87rg.png" group-title="Season 1" group-logo="", Episode 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=18eb75fbe0f84629bf05b53dc19b233b:1dba6c856f7019aacc64e60eb8c98488
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/19a97315f9b340f9babe37585a23db29/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="2207550527" tvg-name="Ninjgo S01 E06" tvg-logo="https://i.imgur.com/Kj7bKIA.png" group-title="Season 1" group-logo="", Episode 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a83dcd2f94f0427080768e2ea6c79ee3:e13c27d58a7bf147cc5ddc828994bd09
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+ https://mbcvod-enc.edgenextcdn.net/out/v1/c5d2f6a2b248487c82dd21b5858c9ade/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="2207549527" tvg-name="Ninjgo S01 E07" tvg-logo="https://i.imgur.com/JI3wSzk.png" group-title="Season 1" group-logo="", Episode 7
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=558e56382f8f4803b4dd7d3352eb7ed0:3f2bf85a5c19fd45c41eaf13e473146d
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://cdxaws-ak.akamaized.net/out/v1/0a421e97da24430db1337a8f348f51b1/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="809345" tvg-name="Ninjgo S01 E08" tvg-logo="https://i.imgur.com/k6e2WV9.png" group-title="Season 1" group-logo="", Episode 8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4de9dc661f294330bfc04995aee93cf1:9d6c0330ce88c212c98e8c9c332cfd2b
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/9884da292c534b5b829323a87c35aea5/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="809344" tvg-name="Ninjgo S01 E09" tvg-logo="https://i.imgur.com/CEJn9Ov.png" group-title="Season 1" group-logo="", Episode 9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ccd4152f96a84aaab67c4f27d1e41952:27f04752bdc860305af71e83d7460f0f
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+ https://mbc-aws-ksa.mncdn.com/out/v1/b836fa493eae4afe9ab44731a0fefa87/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="809343" tvg-name="Ninjgo S01 E10" tvg-logo="https://i.imgur.com/8BBsF6a.png" group-title="Season 1" group-logo="", Episode 10
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8cb89e10411a490ea1aac67828dd3bbe:260e3d00e6132806074e93f03b160dda
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/bc2474e261064f7d8ce9382f2d851969/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="809342" tvg-name="Ninjgo S01 E11" tvg-logo="https://i.imgur.com/JuhO0zl.png" group-title="Season 1" group-logo="", Episode 11
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0c318a3cfc5c4250ab0f4b2a64781718:0beb3b10628041441b54798c95b1bfaa
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/f27bb2746464489595c48878d59b3a0a/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="809341" tvg-name="Ninjgo S01 E12" tvg-logo="https://i.imgur.com/9jXM5XX.png" group-title="Season 1" group-logo="", Episode 12
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b2143bfb84c04e8fb300b65f571229d1:fe231e01595c69d398c5af75fda304bc
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/d8015b44b4914fe8aa8e7285e9f23977/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814740" tvg-name="Ninjgo S02 E01" tvg-logo="" group-title="Season 2" group-logo="", Episode 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ebe4f25fac2d4ce1a26a6b0142bc53a3:9b10dfd8659248bd88aebd5002ae7aac
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/e8419782d829406e8fa2fb8f9c77b1f3/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814741" tvg-name="Ninjgo S02 E02" tvg-logo="" group-title="Season 2" group-logo="", Episode 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=edd16fe3778843ec9935c241ee01eb47:bae8763c81cd83c86c7682d8a9ccda0d
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+ https://mbcvod-enc.edgenextcdn.net/out/v1/a51c5c4fa9444c3fad9792353a847a4f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814743" tvg-name="Ninjgo S02 E03" tvg-logo="" group-title="Season 2" group-logo="", Episode 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=86a8e02d27fa41f3aac17ac746b0b10a:951e96532ae86d138b9d7e6681562035
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/2c9928a74b9e4b29864f2cd653b624f2/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814745" tvg-name="Ninjgo S02 E04" tvg-logo="" group-title="Season 2" group-logo="", Episode 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=89179b761ce34f499caf2717b88f6981:5c28c1824fdb5b3f7df53877beb56578
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/bebfad2eba88463a93df373473058b34/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814747" tvg-name="Ninjgo S02 E05" tvg-logo="" group-title="Season 2" group-logo="", Episode 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0a430cc61bb04cc9a0ebc9f0a3d9e5cd:2b09efe12e26e50ef1354143648661d3
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/b49e26e385394b60957f4bdae0376368/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814750" tvg-name="Ninjgo S02 E06" tvg-logo="" group-title="Season 2" group-logo="", Episode 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b381aa524e4642deb4f8062cd853158a:76c35f72e884ec60d92de5e3f6ccd636
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/cbae6ec3131b4a41bc292b21ff6892c9/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814752" tvg-name="Ninjgo S02 E07" tvg-logo="" group-title="Season 2" group-logo="", Episode 7
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=94d213e974514e26818d9c6fa3699998:ba5208e516e3b2e3c5a74cf463333908
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/14517b3a3060422fb6005efc3ee0b990/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814754" tvg-name="Ninjgo S02 E08" tvg-logo="" group-title="Season 2" group-logo="", Episode 8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ee2990966ca04d7c99847b3c350d71fa:df811f4ef19ec2b6694fafb821e20c27
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/0086474c443741afb28688e365c9ca43/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814757" tvg-name="Ninjgo S02 E09" tvg-logo="" group-title="Season 2" group-logo="", Episode 9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=98e077fefd204db7b9e931e32c948502:85830236a2cf6997eabbd739944124bd
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/ba81d5a9c85648bd8d02c42c60ccc4f9/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814756" tvg-name="Ninjgo S02 E10" tvg-logo="" group-title="Season 2" group-logo="", Episode 10
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c35f1f3211ff4fafafdc6b39a0de4568:b5e440cd74cc2146cea4d9cc8f52ca90
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/d9f50b71d33e4e35b883e79b8962abf2/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814755" tvg-name="Ninjgo S02 E11" tvg-logo="" group-title="Season 2" group-logo="", Episode 11
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=95969d8e3d374789ad38b9d1cffe7626:6703af2d3a85ebf60c0585a0df63710a
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/46b7cfd15ccd40299b174fb4de7423cc/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814758" tvg-name="Ninjgo S02 E12" tvg-logo="" group-title="Season 2" group-logo="", Episode 12
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6829dee2d1a74bb09bcd9b3508a0909b:d88a1cf3978eda4c3ae6d46ffd562aa6
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/bebd7cdcec4b4de7993698ce4782146a/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="814759" tvg-name="Ninjgo S02 E13" tvg-logo="" group-title="Season 2" group-logo="", Episode 13
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=516f674c51d5407a83497c3d900defc7:7e0c09dd44291117cd264d44dde4e81f
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/ccfaae5759d84fa3ac9ad2a78a625a1d/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
 #EXTINF:-1 tvg-id="820228" tvg-name="Ninjgo S08 E01" tvg-logo="https://i.imgur.com/C5Thmje.png" group-title="Season 8" group-logo="https://shahid.mbc.net/mediaObject/42415896-02cb-4358-83a2-57e701b09fc0", Episode 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9a068d4b522edc84a3b8510f2a79642e:42e4239666b680c83c5cc400dfb1a90c
