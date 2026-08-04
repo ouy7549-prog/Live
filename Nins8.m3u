@@ -3,7 +3,7 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4043764381cd43f98cad8313b7ddf2e6:1b8a1d6d6e827fa68d0fcb151b0629b6
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://mbcvod-enc.edgenextcdn.net/out/v1/ce379353094f485583c42c3b504bbd01/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+https://mbc-aws-ksa.mncdn.com/out/v1/aa452bd0c590465b9893b817777362a2/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
 #EXTINF:-1 tvg-id="207554527" tvg-name="Ninjgo S01 E02" tvg-logo="https://i.imgur.com/lP4LyKe.png" group-title="Season 1" group-logo="", Episode 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ba97fce3e59c4fa180ef89cded05bcf0:5304f3fef6d6015af4e4cf7584f985d6
